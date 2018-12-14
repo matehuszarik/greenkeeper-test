@@ -1,0 +1,33 @@
+{
+  "name": "greenkeeper-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config index.js",
+    "start:dev": "./node_modules/.bin/nodemon -r dotenv/config index.js",
+    "test": "./node_modules/.bin/jest --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matehuszarik/greenkeeper-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matehuszarik/greenkeeper-test/issues"
+  },
+  "homepage": "https://github.com/matehuszarik/greenkeeper-test#readme",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.0.0",
+    "joi": "^13.5.2"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1",
+    "jest": "^23.6.0",
+    "nodemon": "^1.8.1",
+    "supertest": "^3.1.0"
+  }
+}
