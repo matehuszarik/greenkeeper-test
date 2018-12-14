@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "nested_project/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
