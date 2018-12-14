@@ -5,4 +5,4 @@ node_js:
 install:
   - npm ci && cd nested_project && npm ci
 script:
-  - npm run test
+  - cd .. && npm run test
