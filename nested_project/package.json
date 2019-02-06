@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.6.3",
+    "react": "^16.8.1",
     "react-dom": "^16.6.3",
     "react-redux": "^6.0.0",
     "redux": "^4.0.0"
